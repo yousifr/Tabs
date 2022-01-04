@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tabs</title>
+  </head>
+  <body>
+    <div>
+      <h1>Tabs</h1>
+      <h5>Click on the buttons inside the tabbed menu</h5>
+
+      <div class="tabs">
+        <button class="tablinks" onclick="opencity(event,'paris')">
+          paris
+        </button>
+        <button class="tablinks" onclick="opencity(event,'london')">london</button>
+        <button class="tablinks" onclick="opencity(event,'newyork')">new york</button>
+      </div>
+      <div id="paris" class="tabcontent">
+        <h3>paris</h3>
+        <p>paris is the capital city of france</p>
+      </div>
+      <div id="london" class="tabcontent">
+        <h3>london</h3>
+        <p>london is the capital city of england</p>
+      </div>
+      <div id="newyork" class="tabcontent">
+        <h3>new york</h3>
+        <p>central park is inside new york</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
